@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo {
+    color: #fff;
+    font-size: 27px;
+    line-height: 60px;
+    padding-left: 386px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.mein {
+    width: 100%;
+    height: 100%;
+    background: url(../img/boy.png) 95% 100%/auto 85% no-repeat, url(../img/fon.jpg) center/cover no-repeat;
+
+}
+
+.title__container {
+    float: left;
+    margin: 432px 0px 0px 404px;
+    text-align: center;
+}
+
+.title__container h1 {
+    font-size: 60px;
+    font-family: bold;
+    font-weight: 600;
+    color: #2c384a;
+}
+
+.title__container h4 {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #79818d;
+
+}
+
+.title__container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 15px;
+    margin: 45px 14px 0px 14px;
+}
+
+.abou_tme {
+    width: 100%;
+    height: 715px;
+    background: url(../img/foto%20boy.png) 50% 226px no-repeat, url(../img/Cherta.jpg) 50% 160px no-repeat;
+
+}
+
+.opis h2 {
+    font-size: 30px;
+    padding: 103px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.opis p {
+
+    display: block;
+    text-align: center;
+}
+
+.opis input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 15px;
+    margin: 45px 14px 0px 14px;
+}
+
+.What_I_cando {
+    width: 100%;
+    height: 523px;
+    background: url(../img/gramofon.png) 1375px 274px no-repeat, url(../img/raceta.png) 1083px 274px no-repeat, url(../img/znak.png) 788px 274px no-repeat, url(../img/nout.png) 495px 274px no-repeat, url(../img/Cherta.jpg) 50% 160px no-repeat, url(../img/cartinca%20fon.jpg) no-repeat;
+
+}
+
+.rasdel h2 {
+    font-size: 28px;
+    padding: 103px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
