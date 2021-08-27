@@ -33,7 +33,7 @@ nav {
 .mein {
     width: 100%;
     height: 100%;
-    background: url(../img/boy.png) 95% 100%/auto 85% no-repeat, url(../img/fon.jpg) center/cover no-repeat;
+    background: url(../img/boy.png) 88% 100%/auto 85% no-repeat, url(../img/fon.jpg) center/cover no-repeat;
 
 }
 
@@ -67,56 +67,388 @@ nav {
     font-size: 13px;
     padding: 0px 15px;
     margin: 45px 14px 0px 14px;
+
 }
 
 .abou_tme {
     width: 100%;
-    height: 715px;
-    background: url(../img/foto%20boy.png) 50% 226px no-repeat, url(../img/Cherta.jpg) 50% 160px no-repeat;
+    height: 750px;
+    background: url(../img/ikonrf%20ckac.jpg.png) 855px 650px no-repeat, url(../img/foto%20boy.png) 50% 224px no-repeat, url(../img/Cherta.jpg) 50% 160px no-repeat;
+}
 
+.opis {
+    float: left;
+    margin: 106px 0px 0px 555px;
+    text-align: center;
 }
 
 .opis h2 {
     font-size: 30px;
-    padding: 103px;
     text-transform: uppercase;
-    text-align: center;
+    font-family: bold;
     font-weight: 600;
-
+    color: #2c384a;
 }
 
 .opis p {
-
-    display: block;
-    text-align: center;
+    margin-top: 80px;
+    color: #3f495a;
 }
 
-.opis input {
-    height: 40px;
+p.tex {
+    margin-top: 320px;
+
+}
+
+.abou_tme input {
+    width: 210px;
+    height: 35px;
     text-align: center;
     border: 2px solid #6d7682;
     background: none;
     border-radius: 5px;
     color: #6d7682;
-    font-size: 13px;
+    font-size: 15px;
     padding: 0px 15px;
     margin: 45px 14px 0px 14px;
 }
 
 .What_I_cando {
     width: 100%;
-    height: 523px;
-    background: url(../img/gramofon.png) 1375px 274px no-repeat, url(../img/raceta.png) 1083px 274px no-repeat, url(../img/znak.png) 788px 274px no-repeat, url(../img/nout.png) 495px 274px no-repeat, url(../img/Cherta.jpg) 50% 160px no-repeat, url(../img/cartinca%20fon.jpg) no-repeat;
+    height: 550px;
+    background: url(../img/gramofon.png)1430px 285px no-repeat, url(../img/raceta.png) 1110px 285px no-repeat, url(../img/znak.png) 790px 285px no-repeat, url(../img/nout.png) 498px 285px no-repeat, url(../img/Cherta.jpg) 50% 160px no-repeat, url(../img/cartinca%20fon.jpg) center/cover no-repeat;
+}
 
+.rasdel {
+    text-align: center;
 }
 
 .rasdel h2 {
-    font-size: 28px;
-    padding: 103px;
+    padding: 100px;
+    font-size: 30px;
     text-transform: uppercase;
+    font-family: bold;
+    font-weight: 600;
+    color: #2c384a;
+}
+
+.rasdel h4 {
+    float: left;
+    line-height: 60px;
+    color: #cf7600;
+    margin-right: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.web {
+    padding-left: 475px;
+}
+
+.rasdel p {
+    float: left;
+    width: 220px;
+    margin-right: 80px;
+    color: #3f495a;
+}
+
+.texx {
+    margin-left: 415px;
+}
+
+.ceoo {
+    margin-left: 10px;
+}
+
+.marc {
+    margin-left: 20px;
+}
+
+.case {
+    width: 100%;
+    height: 100%;
+    background: url(../img/Cherta.jpg) 50% 65px no-repeat, url(../img/ceys.jpg) 50% 120px no-repeat;
+}
+
+.opisan1 {
     text-align: center;
+}
+
+.opisan1 h2 {
+    margin-top: 103px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: bold;
+    font-weight: 600;
+    color: #2c384a;
+}
+
+.taytel_jpis {
+    text-align: left;
+}
+
+.opisan1 p {
+    margin-top: 50px;
+    color: #2c384a;
+}
+
+.client {
+    margin-top: 590px;
+    font-size: 25px;
+    margin-left: 380px;
+    text-transform: uppercase;
+    font-family: bold;
+    font-weight: 600;
+    color: #384354;
+}
+
+.taytel_jpis h6 {
+    padding-top: 10px;
+    margin-left: 380px;
+    color: #384354;
+}
+
+.taytel_jpis h4 {
+
+    font-size: 25px;
+    margin-left: 380px;
+    text-transform: uppercase;
+    font-family: bold;
+    font-weight: 600;
+    color: #384354;
+
+}
+
+.taytel_jpis input {
+    width: 210px;
+    height: 40px;
+    text-align: center;
+    background: #48938d;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 0px 15px;
+    margin: 20px 14px 0px 380px;
+}
+
+.taytel_jpis h5 {
+    margin-left: 560px;
+    font-size: 25px;
+    font-family: bold;
+    font-weight: 600;
+    color: #384354;
+}
+
+.taytel_jpis span {
+    display: inline-block;
+    margin-left: 560px;
+    color: #384354;
+}
+
+.calcyl h2 {
+    margin-top: 190px;
+    font-size: 45px;
+    font-family: bold;
+    font-weight: 600;
+    color: #1c2534;
+    text-align: center;
+}
+
+.calcyl h4 {
+    margin-top: 30px;
+    margin-left: 497px;
+    font-size: 20px;
+    font-family: bold;
+    font-weight: 600;
+    color: #1c2534;
+}
+
+.calcyl select {
+    width: 890px;
+    height: 45px;
+    text-align: center;
+    background: #eeeeee;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 0px 15px;
+    margin: 10px 0px 0px 490px;
+}
+
+.calculation {
+    width: 100%;
+    height: 600px;
+    background: url(../img/loniy%20Itoga.jpg) 49% 400px no-repeat;
+}
+
+.sroc {
+    margin-top: 60px;
+}
+
+.calcyl h5 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: bold;
+    font-weight: 600;
+    color: #1c2534;
+    margin-left: 497px;
+}
+
+.statistics {
+    width: 100%;
+    height: 500px;
+    background: url(../img/stats/kybok.png) 1345px 255px no-repeat, url(../img/stats/galocka.png) 1085px 255px no-repeat, url(../img/stats/scob.png) 780px 255px no-repeat, url(../img/stats/smayl.jpg.png) 494px 255px no-repeat, url(../img/Cherta.jpg) 50% 155px no-repeat, url(../img/statistik.jpg) center no-repeat;
+
+}
+
+.stats h2 {
+    padding-top: 95px;
+    font-size: 30px;
+    font-family: bold;
+    font-weight: 600;
+    color: #323e4f;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.stats p {
+    float: left;
+    margin-top: 200px;
+    padding-left: 210px;
+    font-size: 45px;
+    font-family: bold;
+    font-weight: 900;
+    color: #323e4f;
+}
+
+.Sto {
+    margin-left: 275px;
+}
+
+.stats h4 {
+    float: left;
+    margin-top: 20px;
+    padding-left: 110px;
+    font-size: 15px;
+    font-family: bold;
+    color: #323e4f;
+    text-transform: uppercase;
     font-weight: 600;
 }
 
+.scactliv {
+    margin-left: 320px;
+}
 
+.cacv {
+    margin-left: 15px;
+}
 
+.proek {
+    margin-left: 20px;
+}
+
+.reviews {
+    width: 100%;
+    height: 592px;
+    background: url(../img/stats/fotca.png) 50% 230px no-repeat, url(../img/Cherta.jpg) 50% 158px no-repeat;
+
+}
+
+.otziv {
+    text-align: center;
+}
+
+.otziv h2 {
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: bold;
+    color: #323e4f;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.otziv span {
+    display: block;
+    margin-top: 260px;
+}
+
+.otziv p {
+    margin-top: 20px;
+}
+
+.contacts {
+    width: 100%;
+    height: 950px;
+    background: url(../img/stats/truba.png) 1190px 280px no-repeat, url(../img/stats/convert.png) 940px 280px no-repeat, url(../img/stats/reo.png) 670px 280px no-repeat, url(../img/Cherta.jpg) 50% 160px no-repeat, url(../img/stats/Fon%20cot.jpg) center no-repeat;
+}
+
+.contact {
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact h2 {
+    padding-top: 105px;
+    font-size: 30px;
+}
+
+.contact span {
+    display: block;
+    margin-top: 50px;
+}
+
+.contact h5 {
+    font-size: 15px;
+    float: left;
+    padding-left: 110px;
+    margin-top: 130px;
+}
+
+.tex-can {
+    margin-left: 500px;
+
+}
+
+.contact h4 {
+    width: 450px;
+    margin-top: 180px;
+    margin-left: 735px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+form {
+    text-align: center;
+}
+
+.dannee input {
+    height: 40px;
+    width: 360px;
+    font-size: 13px;
+    padding: 0px 15px;
+    margin: 45px 14px 0px 14px;
+    background: #c6cedb;
+}
+
+.sobcheni textarea {
+    width: 755px;
+    margin-top: 30px;
+    background: #c6cedb;
+
+}
+
+.Otpravit input {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    background: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0px 15px;
+    margin: 25px 14px 0px 14px;
+    font-weight: 600;
+}
