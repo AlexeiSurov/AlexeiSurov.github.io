@@ -6,45 +6,49 @@
     <title>Алексей Шумилин - Веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
-
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-
+    <div id="page-preloader" class="preloader">
+        <div class="loader">
+        </div>
+    </div>
     <header>
 
         <nav>
-
             <div class="logo">Алексей Шумилин</div>
             <div class="menu">
                 <ul>
-                    <li>Обо мне</li>
-                    <li>Услуги</li>
-                    <li>Кейсы</li>
-                    <li>Прайс</li>
-                    <li>Отзывы</li>
-                    <li>Контакты</li>
+                    <li><a href="#">Обо мне</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Прайс</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
             </div>
 
         </nav>
     </header>
 
-    <div class="mein">
+    <main>
+        <section class="mein">
 
-        <div class="title__container">
+            <div class="title__container">
 
-            <h1>Привет <br>Я Алексей Шумилин</h1>
-            <h4>Фулл стек веб-разработчик</h4>
+                <h1>Привет <br>Я Алексей Шумилин</h1>
+                <h4>Фулл стек веб-разработчик</h4>
 
-            <input type="submit" value="Обо мне">
-            <input type="submit" value="Мои работы">
+                <input type="button" value="Обо мне">
+                <input type="button" value="Мои работы">
 
-        </div>
-    </div>
+            </div>
+        </section>
+    </main>
 
-    <div class="abou_tme">
+
+    <section class="abou_tme">
 
         <div class="opis">
 
@@ -56,10 +60,10 @@
 
 
 
-            <input type="submit" value="Скачать резюме">
+            <input type="button" value="Скачать резюме">
 
         </div>
-    </div>
+    </section>
     <div class="What_I_cando">
 
         <div class="rasdel">
@@ -101,7 +105,7 @@
                 <h4>WEBSITE:</h4>
                 <h6>www.somedomain.com</h6><a href="" target="blanc">
 
-                    <input type="submit" value="VISIT LIVE SITE"></a>
+                    <input type="button" value="VISIT LIVE SITE"></a>
             </div>
         </div>
     </div>
@@ -126,6 +130,7 @@
 
     <div class="statistics">
 
+
         <div class="stats">
 
             <h2>Немного статистики</h2>
@@ -142,10 +147,9 @@
 
             <h4>НАГРАД ПОЛУЧЕНО</h4>
 
-
         </div>
-    </div>
 
+    </div>
 
     <div class="reviews">
         <div class="otziv">
@@ -177,14 +181,19 @@
                 <textarea name="text_input" id="" cols="60" rows="10" placeholder="Сообщение"></textarea>
             </div>
             <div class="Otpravit">
-                <input type="submit" value="Отправить">
+                <input type="button" value="Отправить">
             </div>
         </form>
 
     </div>
 
+
+
+    <script src="js/preloader.js"></script>
 </body>
 
+<footer>
 
+</footer>
 
 </html>
