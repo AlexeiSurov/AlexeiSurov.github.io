@@ -637,12 +637,15 @@ form {
 @keyframes stats {
     from {
         opacity: 0;
+        
     }
 
     to {
         opacity: 1;
+        
     }
 }
+
 .Otpravit input {
     transition: all 0.2s;
     transform: scale (1);

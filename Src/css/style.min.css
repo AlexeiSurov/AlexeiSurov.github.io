@@ -4,7 +4,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: black;
+    background: #fff;
     z-index: 2;
     transition: 1s all;
     opacity: 1;
@@ -22,9 +22,10 @@
     top: 50%;
     transform: translate(-50%, -50%);
     animation: 1s spin infinite linear;
+
 }
 
-&.done {
+.done {
     opacity: 0;
     visibility: hidden;
 
